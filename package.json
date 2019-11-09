@@ -1,0 +1,21 @@
+{
+  "name": "async-await-marvel",
+  "version": "1.0.0",
+  "description": "NOte: Before Learning Async Await you need to be aware about promises.",
+  "main": "promise.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon promise.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RohitV5/async-await-marvel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RohitV5/async-await-marvel/issues"
+  },
+  "homepage": "https://github.com/RohitV5/async-await-marvel#readme"
+}
