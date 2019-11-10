@@ -7,3 +7,6 @@ Before Promises learn what is synchronous programming
 
 promise : noun : Assurance that one will do something or that a particular thing will happen.
 
+
+JS in Non Blocking Single Threaded Synchronous
+
