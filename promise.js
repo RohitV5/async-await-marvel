@@ -17,7 +17,38 @@ promise1.then(data => {
 
 
 // ---------------------------------the above example is useless for commercial purpose, just grab the concept.
+// Probably it was useful if we were fetching something from api
 // a fucking function that returns a promise and sara backchod logic should be written within that promise block
+
+// To make above function useful we pass a paramter. For that we just modify the above code a little.
+var promise1=(param) => new Promise((resolve, reject) => {
+
+    setTimeout(() => {
+        if(typeof param=="number")
+        resolve({
+            data: "Hi your data is "+ param
+        })
+        else
+        reject({
+            data: "String detected "+ param
+
+        })
+    }, 5000)
+
+})
+
+
+promise1('100').then(data => {
+    // console.log(data)
+},err=>{
+    // console.log(err)
+})
+
+// Voila! now we have something useful.
+
+
+
+
 
 function resolveIfNumber(val) {
     return new Promise((resolve, reject) => {
