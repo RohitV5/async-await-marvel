@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/RohitV5/async-await-marvel/issues"
   },
-  "homepage": "https://github.com/RohitV5/async-await-marvel#readme"
+  "homepage": "https://github.com/RohitV5/async-await-marvel#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
